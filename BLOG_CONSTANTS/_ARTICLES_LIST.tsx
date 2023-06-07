@@ -74,7 +74,7 @@ const ARTICLES_LIST: iArticle[] = [
   },
   {
     path: "/pages/tutorial/how-to-deploy-blog.tsx",
-    featureArticle: false,
+    featureArticle: true,
     preview: {
       author: RUPALI,
       date: "August 08 2022",
@@ -128,15 +128,15 @@ const ARTICLES_LIST: iArticle[] = [
     },
   },
   {
-    path: "/pages/tutorial/blog-with-centered-layout.tsx",
+    path: "/pages/blog/villager-updates.tsx",
     preview: {
       author: RUPALI,
-      date: "August 14 2022",
-      articleTitle: "Page Layout for a article with centered layout",
+      date: "May 25 2023",
+      articleTitle: "Villager updates!",
       tags: "demo, centered, centered layout",
-      thumbnail: "/public/imp_assets/tutorials/blog-with-centered-layout.svg",
+      thumbnail: "/public/images/inspect img.png",
       shortIntro:
-        "This a demo article with centered layout and with demo of all the components.",
+        "We added some updates to the villagers",
       category: "layouts",
     },
     seo: {
@@ -144,75 +144,9 @@ const ARTICLES_LIST: iArticle[] = [
         "demo, centered, centered layout, blog page layout, blog page design with centered layout, webexpe, webexpe.com",
       ogImage: "/public/imp_assets/tutorials/blog-with-centered-layout.svg",
     },
-  },
-  {
-    path: "/pages/tutorial/all-components.tsx",
-    preview: {
-      author: RUPALI,
-      date: "August 08 2022",
-      articleTitle: "All Components",
-      tags: "demo, all components",
-      thumbnail: "/public/imp_assets/tutorials/all-components.svg",
-      shortIntro: "List of all usable components, its types and how to use it.",
-      category: "tutorial",
-    },
-    seo: {
-      keywords: "demo, all components, webexpe, webexpe.com",
-      ogImage: "/public/imp_assets/tutorials/all-components.svg",
-    },
-  },
-  {
-    path: "/pages/tutorial/style-guide.tsx",
-    preview: {
-      author: MAYUR,
-      date: "August 10 2022",
-      articleTitle: "Style Guide",
-      tags: "demo, all components, style guide, styling tutorial",
-      thumbnail: "/public/imp_assets/tutorials/style-guide.svg",
-      shortIntro: "Styling and theming tutorial.",
-      category: "tutorial",
-    },
-    seo: {
-      keywords:
-        "demo, all components, style guide, styling, css, tailwind css, tailwind, webexpe, webexpe.com",
-      ogImage: "/public/imp_assets/tutorials/style-guide.svg",
-    },
-  },
-  {
-    path: "/pages/tutorial/icons.tsx",
-    preview: {
-      author: MAYUR,
-      date: "August 13 2022",
-      articleTitle: "How to use icons",
-      tags: "demo, all components, style guide, styling tutorial, icons, how to use icons in website",
-      thumbnail: "/public/imp_assets/tutorials/how-to-use-icons.svg",
-      shortIntro: "How to use icons in your blog website.",
-      category: "tutorial",
-    },
-    seo: {
-      keywords:
-        "demo, all components, style guide, styling, css, tailwind css, tailwind, webexpe, webexpe.com, styling tutorial, icons, how to use icons in website",
-      ogImage: "/public/imp_assets/tutorials/how-to-use-icons.svg",
-    },
-  },
-  {
-    path: "/pages/blog/your-first-article.tsx",
-    preview: {
-      author: MAYUR,
-      date: "August 6 2022",
-      articleTitle: "Your first article",
-      shortIntro:
-        "This is a demo file for your first article, you can copy structure of this file to create multile article.",
-      tags: "demo, your first article",
-      thumbnail: "/public/imp_assets/tutorials/how-to-write-first-article.svg",
-      category: "tutorial",
-    },
-    seo: {
-      keywords:
-        "demo, all components, style guide, styling, css, tailwind css, tailwind, webexpe, webexpe.com, styling tutorial, icons, how to use icons in website",
-      ogImage: "/public/imp_assets/tutorials/how-to-write-first-article.svg",
-    },
-  },
+  }
+
+
 ];
 
 export const SORTED_ARTICLES_BY_DATE = ARTICLES_LIST.sort((a, b) =>

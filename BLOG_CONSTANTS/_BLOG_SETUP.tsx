@@ -84,16 +84,11 @@ export const PRIMARY_NAV: iNavSetup = {
         {
             // to open a link in new tab pass newTab: true
             label: 'Support Us',
-            path: 'https://www.buymeacoffee.com/webexpe13z',
+            path: 'https://www.buymeacoffee.com/brandonzeier',
             newTab: true
         },
         {
-            label: 'Github Repo',
-            path: 'https://github.com/webexpe13/blog-template-using-nextjs-typescript-tailwindcss',
-            newTab: true
-        },
-        {
-            label: 'Contact Us',
+            label: 'Contact',
             path: '/contact-us'
         }
     ],
