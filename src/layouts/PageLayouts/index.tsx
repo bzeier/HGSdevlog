@@ -1,6 +1,5 @@
 import { NextSeo } from 'next-seo';
 import { DEFAULT_SEO } from '../../../BLOG_CONSTANTS/_BLOG_SETUP';
-import Navbar from '../../components/Navbar';
 import { iSEO } from '../../shared/interfaces';
 import { CREATE_SEO_CONFIG, getArticleDetails } from '../../utils/utils';
 import Centered from './BlogCentered';
@@ -30,7 +29,7 @@ const PageLayout = ({ children, PAGE_SEO, blogwithsidebar = false, blogcentered 
     return (
         <>
             <NextSeo {...SEO_CONFIG} />
-            <Navbar />
+            
             {
                 blogwithsidebar ? <WithSidebar children={children} ads={ads} /> :
                     blogcentered ? <Centered children={children} /> :
